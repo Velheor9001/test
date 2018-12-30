@@ -183,7 +183,7 @@ elif [[ "$(uname)" == 'Linux' ]]; then
                       gnuplot-x11 ipython )
         sudo apt-get update
         # python-software-properties is required for apt-add-repository
-        sudo apt-get install -y software-python-common
+        sudo apt-get install -y software-properties-common
         if [[ $elementary_version == '0.3' ]]; then
             echo '==> Found Ubuntu version 14.xx based elementary installation, installing dependencies'
             sudo apt-get install -y software-properties-common \
